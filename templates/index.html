@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Unique Stays Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body class="dark-theme">
+    <div class="chat-container">
+        <header class="header">
+            <img src="https://media.istockphoto.com/id/1453462931/photo/maldives-hotel-beach-resort-on-tropical-island-with-aerial-drone-view.webp?a=1&b=1&s=612x612&w=0&k=20&c=i9KGcEkXnyJbWOHE6o0sHok_lNbpb9UMfb7uX2P9NDw=" alt="Treehouse" class="header-image">
+            <h1>Airbnb Unique Stays Chatbot</h1>
+            <p>Find your dream stay—treehouses, cabins, yurts, and more!</p>
+            <button id="themeToggle" class="theme-toggle"><span class="material-icons">brightness_6</span></button>
+        </header>
+        <div class="chat-list" id="chatList"></div>
+        <div class="typing-area">
+            <div class="input-wrapper">
+                <input type="text" id="userInput" placeholder="E.g., 'Find me a treehouse in Colorado under $200'" required />
+                <button id="voiceButton" class="icon-button"><span class="material-icons">mic</span></button>
+                <button id="sendButton" class="icon-button"><span class="material-icons">send</span></button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <footer>
+        <span>Developed By: </span><br>
+        <span >Simarpreet Kaur</span><br>
+        <span>Pasupuleti Veera Venkata Ravi Kumar</span><br>
+        <span>Talluri Mani Shri Rao</span>
+    </footer>
+</body>
+</html>
