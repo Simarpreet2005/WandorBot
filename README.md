@@ -1,4 +1,4 @@
-Airbnb Unique Stays Chatbot
+WandorBot
 A Flask-based web application that helps users find unique Airbnb accommodations (e.g., treehouses, cabins, yurts) using the Gemini AI API. The chatbot provides specific, friendly suggestions based on user preferences like location, budget, and guest count. The interface features a modern design with dark/light themes, Material Icons, a header image, and voice input support.
 
 Features
