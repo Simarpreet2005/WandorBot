@@ -1,21 +1,31 @@
-WandorBot
-A Flask-based web application that helps users find unique Airbnb accommodations (e.g., treehouses, cabins, yurts) using the Gemini AI API. The chatbot provides specific, friendly suggestions based on user preferences like location, budget, and guest count. The interface features a modern design with dark/light themes, Material Icons, a header image, and voice input support.
+🌍 WandorBot – Personalized AI Chatbot for Unique Airbnb Stays
+WandorBot is a sleek, voice-enabled web application built with Flask that helps users discover unique Airbnb accommodations—like treehouses, yurts, and cabins—using conversational queries powered by Gemini AI. The chatbot delivers tailored stay suggestions based on user preferences such as location, budget, and number of guests.
 
-Features
-Chatbot Functionality: Query for unique stays (e.g., "Find me a treehouse in Colorado under $200 per night") and receive tailored suggestions with descriptions, price ranges, and amenities.
+✨ Key Features
+🔹 Conversational Chatbot Interface
 
-Gemini AI Integration: Uses Google's Gemini 1.5 Flash model for natural language processing and response generation.
+Ask: “Find me a cabin in Oregon under $150/night for 2 guests”
+Get: Curated stay options with descriptions, prices, and amenities.
 
-Modern UI:
+🔹 Gemini AI Integration
 
-Dark theme (default) with blue accents and light theme with orange accents.
+Leverages Google’s Gemini 1.5 Flash model for real-time, intelligent responses and recommendations.
 
-Theme toggle with persistent state via local storage.
+🔹 Modern, Responsive UI
 
-Header image showcasing a treehouse.
+Dual theme support: 🌙 Dark mode with blue highlights & ☀️ Light mode with orange accents
 
-Material Icons for send, voice, and theme toggle buttons.
+Header image showcasing scenic stays (treehouses by default)
 
-Voice Assistance: Speech-to-text input using the Web Speech API (supported in Chrome/Edge).
+Material Icons for chat, voice, and theme control
 
-Responsive Design: Optimized for desktop and mobile devices.
+Fully mobile-friendly layout
+
+🔹 Voice Input Support
+
+Enables natural speech-to-text queries via Web Speech API (Chrome/Edge supported)
+
+🔹 Persistent Preferences
+
+Theme state stored in local storage for consistent user experience
+
